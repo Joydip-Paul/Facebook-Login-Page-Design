@@ -1,0 +1,163 @@
+body{
+	padding: 0;
+	margin: 0;
+	background-color: #999;
+}
+.boundary{
+	height: 550px;
+	width: 1000px;
+	background-color: #dfe3ee;
+	position: absolute;
+	left:50%;
+	top:50%;
+	transform: translate(-50%,-50%);
+}
+.header{
+	width: 100%;
+	height: 75px;
+	background-color: #3b5998;
+	display: flex;
+	border-bottom:1px solid #0e3888;
+}
+h1{
+	margin-left: 120px;
+	margin-top: 10px;
+	color: #fff;
+	font-family: 'Heebo', sans-serif;
+}
+#Etxt{
+	height: 12px;
+	width: 150px;
+	margin-top:10px;
+	margin-left: 270px;
+}
+#Etxt label{
+	color: #fff;
+	font-size: 12px;
+	font-family: Arial;
+}
+#Ptxt{
+	height: 12px;
+	width: 150px;
+	margin-top:10px;
+	margin-left: 30px;
+}
+#Ptxt label{
+	color: #fff;
+	font-size: 12px;
+	font-family: Arial;
+}
+#Ptxt label a{
+	color: #9ca0bb;
+	font-size: 12px;
+	font-family: Arial;
+}
+.btn{
+	margin-top:29px;
+	margin-left: 30px;
+}
+.btn input[type="button"]{
+	height: 22px;
+	width: 50px;
+	color: #fff;
+	background-color: #4267b2;
+	font-size: 10px;
+	outline: none;
+	border: 1px solid #29487b;
+}
+#main1{
+	width: 50%;
+	height: 472px;
+	background-color: #9090;
+	float: left;
+}
+#main1 h2{
+	margin-left: 120px;
+	font-family: Arial;
+	margin-top: 30px;
+	font-size: 16px;
+	color: #0e3888;
+	margin-right: 25px;
+}
+#main1 img{
+	margin-left: 120px;
+	width: 400px;
+}
+#main2{
+	width: 50%;
+	height: 472px;
+	background-color: #9090;
+	float: left;
+}
+#main2 h2{
+	margin-left: 20px;
+	font-size: 30px;
+	font-family: 'Heebo', sans-serif;
+}
+#main2 h4{
+	margin-top: -30px;
+	margin-left: 20px;
+	font-size: 15px;
+	font-family: 'Heebo', sans-serif;
+}
+#main2 input[type="text"]{
+	height: 25px;
+	width: 120px;
+	border-radius: 2px;
+	border: 1px solid #4747;
+	outline: none;
+	padding: 5px;
+	float: left;
+    margin-left: 20px;
+}
+#main2 input[type="password"]{
+	height: 25px;
+	width: 271px;
+	border-radius: 2px;
+	border: 1px solid #4747;
+	outline: none;
+	padding: 5px;
+	float: left;
+	margin-top: 10px;
+    margin-left: 20px;
+}
+#main2 #moem{
+	margin-top: 10px;
+	width: 271px;
+}
+#main2 #bday{
+	margin-left: 20px;
+	color: #474747;
+	font-family: Arial;
+}
+#main2 select{
+	margin-left: 20px;
+	height: 30px;
+	width: 60px;
+}
+#main2 input[type="radio"]{
+	margin-left: 20px;
+}
+#main2 p{
+	margin-left: 20px;
+	font-family: Arial;
+	font-size: 10px;
+	padding-right: 200px;
+}
+#main2 a{
+	color: #3b5998;
+	text-decoration: none;
+}
+#main2 input[type="button"]{
+	margin-left: 20px;
+	width: 170px;
+	height: 30px;
+	background-color: #598c45;
+	border-radius: 5px;
+	outline: none;
+	color: #fff;
+}
+#main2 h5{
+	margin-left: 20px;
+	font-family: Arial;
+}
